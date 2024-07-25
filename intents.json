@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "question": "hi",
+      "answer": "hey there"
+    },
+    {
+      "question": "how are you ",
+      "answer": "I am a bot so I don't possess feeling but how can I help you"
+    },
+    {
+      "question": "what is math",
+      "answer": "Mathematics is a field of study that discovers and organizes methods, theories and theorems that are developed and proved for the needs of empirical sciences and mathematics itself."
+    }
+  ]
+}

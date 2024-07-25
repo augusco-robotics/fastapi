@@ -1,0 +1,980 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello?",
+        "whatsapp",
+        "????",
+        "heyy",
+        "how are ya"
+
+      ],
+      "responses": [
+        "Hey! How can I assist you today?",
+        "Hi there!",
+        "Hello!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is Augusco located?",
+        "location of augusco",
+        "Augusco's location",
+        "where can I find augusco?"
+      ],
+      "responses": [
+        "The College is located in Cape Coast, Ghana, overlooking the Atlantic Ocean (Gulf of Guinea). Its campus covers an area of about 1.30 acres (52,6084 hectares), providing a conducive atmosphere for academic work. It's about 1.8 km from the Cape Coast Town Hall and about 2.3 km from the west gate of the University of Cape Coast along the beach."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creator",
+      "patterns": ["what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+      ],
+      "responses": [
+        "Master Philip Yaw Neequaye Ansah",
+        "Augusco Robotics, AI and Drone"
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "headmaster",
+      "patterns": [
+        "who is the headmaster",
+        "who is the headmaster of the college?",
+        "who is the headmaster of the school?",
+        "who is the principal",
+        "the headmaster"
+      ],
+      "responses": [
+        "The current Headmaster is Mr. Henry Arthur-Gyan. The Assistant Headmasters are Mrs. Edith Swanzy-Donkoh (Admin), Mr. Francis Addo Mensah (Academic), and Mr. Michael Amissah (Domestic). The College Chaplain is Fr. Emmanuel Adjine.",
+        "The current Headmaster is Mr. Henry Arthur-Gyan."
+      ],
+      "context_set": ""
+  },      {
+      "tag": "college mission",
+      "patterns": [
+        "what is the mission of the college",
+        "college mission",
+        "do you know the college mission"
+      ],
+      "responses": [
+        "The mission is to provide excellent Catholic education that equips students for leadership roles in every aspect of life, delivered by firmly committed tutors in a superb learning environment."
+      ],
+      "context_set": ""
+  },      
+  {
+      "tag": "college vision",
+      "patterns": [
+        "what is the vision of the college",
+        "college vision."
+      ],
+      "responses": [
+        "The college vision is to be an outstanding Catholic college offering the highest quality of education in preparing the perfect citizen for the future. "
+      ],
+      "context_set": ""
+  },      
+  {
+      "tag": "college anthem",
+      "patterns": [
+        "What is the college anthem",
+        "what is the school anthem",
+        "college anthem",
+        "school anthem"
+      ],
+      "responses": [
+        "Sure! Here's the English version of the college anthem:\n\n1. Hail Augustine our patron saint\n\nThe faithful soldier of God\n\nThe Glory of Catholics in Africa\n\nThe great Teacher of the Holy Church\n\nChorus\n\nHail Augustine, our great friend\n\nThe son of Saint Monica\n\nListen to our prayers and defend us\n\nSo that we can be with God\n\n2. O Augustine, the famous\n\nThe great defender of the true church\n\nWe pray for Divine Wisdom\n\nSo that we serve God with diligence\n\n3. Glory be to the Creator forever\n\nPraise onto the Suffering Son\n\nBlessed be onto the Holy Spirit\n\nGod's favor be onto St.Augustine\n\n\n And here's the Fante version:\n\n1.Mbo ᴐgɛsten hɛn hotsewenyi papa\n\nNokwar nyamesom ᴐsabenyin\n\nEbibrim kakrekfo hon enyimnyam\n\nAsᴐr krᴐnkrᴐn ne kyerɛkyer3nyi pa\n\nChorus\n\nMbo ᴐgɛsten hɛn adamfo pa\n\nƆhontsewenyi Mnika ne ba\n\nTsie hɛn asᴐr na twitwagye hɛn\n\nAma yeafata nyame ne nkyɛn\n\n2. ᴐgɛsten nyimdzifo atsenka\n\nNokwar gyedzi twitwagyenyi pa\n\nYeresew ma ma hɛn wo Nyame nyansan bi\n\nMa yɛnsom Nyame dɛ mbrɛ ᴐfata\n\n3. Enyimyam nka abosom egyan daa; daa\n\nNtonton nka nyia ohun amandzen;\n\nNhyira nka ᴐdomankoma sunsum\n\nSiar nka ᴐhotseweenyi ᴐg3sten\n\n "
+      ],
+      "context_set": ""
+  },      
+  {
+      "tag": "crest",
+      "patterns": [
+        "college coat of arms",
+        "How does the college coat of arms look like",
+        "How does the college crest look like"
+      ],
+      "responses": [
+        "The College Coat of Arms consists of a shield with a white cross on a green field. It symbolizes the College's commitment to purity and academic excellence. The shield also features lighted torches flanked by laurels, representing the College's leadership in academic progress and the reward of victory for its students. The green background signifies the College's dedication to total student development."
+      ],
+      "context_set": ""
+  },      
+  {
+      "tag": "courses",
+      "patterns": [
+        "what courses are offered in the college",
+        "what courses are offered in the school",
+        "what programmes do we offer in the college",
+        "what programmes do we offer in the school"
+      ],
+      "responses": [
+        "The following academic courses are offered in the College: General Arts, Business, General Science, and Agricultural Science."
+      ],
+      "context_set": ""
+  },      
+  {
+      "tag": "houses",
+      "patterns": [
+        "how many houses are in augusco?",
+        "how many houses are in the school",
+        "how many houses are in the college"
+      ],
+      "responses": [
+        "There are 11 houses in St. Augustine's College/n They are /n 1. St. Stephen's House/n 2. St. Patrick's House/n 3. Fr. Glynn's House/n 4.St. Thearsa's House/n 5. St. George's House/n 6. Fr. Kelly's House /n 7. St. Peter's House/n 8. St. Luke's House /n 9. St. John's House/n 10. St. Joseph's House /n 11. Dr. Nduom House "
+      ],
+      "context_set": ""
+  },      
+  {
+      "tag": "college attire",
+      "patterns": [
+        "what is the college attire ",
+        "what uniform do students wear",
+        "what do the students wear"
+      ],
+      "responses": [
+        "During class hours, all students wear green shirts over khaki shorts. After school, students wear white shirts and khaki trousers for preps. On Sundays, students wear white shirts and trousers or the college attire for mass"
+      ],
+      "context_set": ""
+  },      
+  {
+      "tag": "change of course",
+      "patterns": [
+        "can i change my course",
+        "is it possible to change your course",
+        "how do i change my course"
+      ],
+      "responses": [
+        "A change of course or programme must first be approved by the parents of the student and further approved by the Assistant Headmaster (Academic), who will then discuss it with the Headmaster for final approval. Any such request should be made within the first term/semester or by the end of the academic year, otherwise, the student may be required to repeat the form."
+      ],
+      "context_set": ""
+  },     
+  {
+      "tag": "transcripts",
+      "patterns": [
+        "how do i get my transcript",
+        "does the college issue transcript",
+        "what do i need to get a tanscript",
+        "do i need to pay for transcripts"
+
+      ],
+      "responses": [
+        "Transcripts of academic records issued by the college are copies of the complete unabridged academic record of the student at the college. Requests for the issuance of transcripts must be accompanied by the complete name used by the student while in attendance, indicating any change in name if applicable, the dates of attendance, authority notes (duly signed by the student) if the student cannot be present in person, the complete mailing address including the name of the office or person to whom the transcript is to be sent, and the postage fee payable to the accounts department if the college will incur extra costs in doing so."
+      ],
+      "context_set": ""
+  },      
+  {
+      "tag": "departments",
+      "patterns": [
+        "what are the department in the college?",
+        "how many departments are there",
+        "what course sectors are in augusco"
+      ],
+      "responses": [
+        "There are four (4) Departments in the College. Each Department is under a Head of Department and the Units are headed by sector subject masters or mistresses. The departments are organized as follows: Department of Arts, Department of Science, Department of Agriculture, and Department of Business."
+      ],
+      "context_set": ""
+  },
+   {
+      "tag": "Head of departments",
+      "patterns": [
+        "who are the depatment heads",
+        "what are the names of the department heads",
+        "who is the head of science department",
+        "who is the head of Arts department ",
+        "who is the head of Maths department",
+        "who is the head of ICT depaartment"
+      ],
+      "responses": [
+        "The Heads of Departments are: Mr. Dominic Adofo Mensah for General Science/Agric Science, Mr. Aloysius Donkor for Maths and IT, and Mercy Abban (Ms) for General Arts."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "apsu",
+      "patterns": [
+        "how do we call we call the past students",
+        "Who is an APSU"
+      ],
+      "responses": [
+        "The St. Augustine's Past Students Union (APSU) is an association for past students of St. Augustine's College. Once you become a student at the college, you begin a lifelong association with it. Past students keep in touch with their friends, houses of residence, course mates, clubs, and societies. The college likes to keep its graduates informed about its activities and development and is interested to know how they are doing. Upon graduating, you automatically become a member of APSU, so remember to keep the association's office updated with any change of address or occupation. They wish to continue to keep in touch with you."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "aims and objectives of APSU",
+      "patterns": [
+        "What are the aims of APSU",
+        "What are the objectives and aims of the APSUNIANS"
+      ],
+      "responses": [
+        "The aims and objectives of the St. Augustine's Past Students Union (APSU) are to enable past students to maintain their links with the College, promote social contacts and networking among its members, and promote the welfare of past and present students of the College."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "branches of APSU",
+      "patterns": [
+        "What are the branches of APSU",
+        "I want to know about the APSU branches"
+      ],
+      "responses": [
+        "The St. Augustine's Past Students Union (APSU) has well-established local branches in Accra, Kumasi, Sekondi-Takoradi, Tema, and Cape Coast. New branches are also emerging in other parts of the country, including Koforidua, Sunyani, and Ho. Additionally, APSU has branches in the United States of America, Canada, South Africa, and parts of Europe. The National Secretariat is located in Accra. Furthermore, there are branches in all the Polytechnics and universities in Ghana, including Takoradi Technical University, Accra Technical University, Kumasi Technical University, University of Ghana, University of Cape Coast, Kwame Nkrumah University of Science and Technology (KNUST), University of Mines and Technology, and University of Education, Winneba."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "senior prefect",
+      "patterns": [
+        "Who is the senior prefect",
+        "Who is the head boy",
+        "Who is the head prefect "
+      ],
+      "responses": [
+        "The current senior prefect is Master Aboagye Louis"
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "duties of the senior prefect",
+      "patterns": [
+        "What does the senoir prefect do",
+        "What are the duties of the obligations"
+      ],
+      "responses": [
+        "The Senior Prefect holds the highest prefect position in the college. They oversee student behavior, settle disputes, organize prefects' meetings, act as a liaison between students and authorities, ensure student welfare, maintain hygienic conditions, report irregularities, and provide feedback on staff performance."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "department of arts",
+      "patterns": [
+        "What are the subjects under the department of arts",
+        "What subjects are general arts department"
+      ],
+      "responses": [
+        "The Department of Arts includes English, French Literature in English, Geography History, Government, Social Studies, Religious and Moral Education, Christian Religious Studies, and Music."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "department of science",
+      "patterns": [
+        "What subjects are under the science department"
+      ],
+      "responses": [
+        "The Department of Science includes Physics, Chemistry, Biology, Physical Education, Mathematics (both core and elective), and Information Communication and Technology (ICT)."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "department of agriculture",
+      "patterns": [
+        "What are the subjects in agriculture department"
+      ],
+      "responses": [
+        "The Department of Agriculture includes Animal Husbandry and General Agriculture."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "department of business",
+      "patterns": [
+        "What subjects are in the department of business",
+        "Second question for another intent."
+      ],
+      "responses": [
+        "The Department of Business includes Economics, Accounting, Cost Accounting, and Introduction to Business Management."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "core subjects",
+      "patterns": [
+        "What are the core subject offered",
+        "What are the number of core subjects"
+      ],
+      "responses": [
+        "The core subjects include English Language, Mathematics, Integrated Science, and Social Studies. Additionally, students take Religious and Moral Education, ICT, and Physical Education, although these are not externally examined."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "optional subjects",
+      "patterns": [
+        "What are the optional sujects",
+        "What are the elective subjects to be chosen",
+        "What elective subjects can I choose"
+      ],
+      "responses": [
+        "For General Arts - 1,\n students can choose from Music, Christian Religious Studies (CRS), French, Elective Mathematics, or any two of Economics, Geography, and Government.\nFor General Arts - 2,\nstudents must take Music, Christian Religious Studies (CRS), French, and either History or Literature-In-English, along with any other two subjects.\nIn the Business stream, students can select Accounting, Economics, Costing/Elective Mathematics, or Business Management.\nIn the Science stream, students can choose Physics, Chemistry, Elective Mathematics, Biology, or Elective ICT or Geography.\nFor Agricultural Science, students take Animal Husbandry, General Agriculture, Physics, and Chemistry."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "classes and programmes",
+      "patterns": [
+        "How many classes are n the school",
+        "What are the classes in the school"
+      ],
+      "responses": [
+        "The college has a total of 19 classes for SHS 1, 18 for SHS 2, and 21 for SHS 3, with an average class size of 54 students. The distribution of courses/programmes is as follows: SHS 1 - General Science (10), Business (3), General Arts (5), Agricultural Science (1); SHS 2 - General Science (10), Business (3), General Arts (4), Agricultural Science (1); SHS 3 - General Science (11), Business (4), General Arts (5), Agricultural Science (1)."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "choice of programmes",
+      "patterns": [
+        "How many courses does the school offers",
+        "How many programmes are in the school",
+        "What programmes does the school offers"
+      ],
+      "responses": [
+        "The candidate's choice of programme is respected as much as possible. However, factors such as performance in the Basic Education Certificate Examination (BECE) and available space are taken into consideration. Final decisions on placements are made by the Academic Board of the College in consultation with the guidance and counseling coordinator. Computer placements of candidates into programmes are submitted to the school."
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "change of course",
+      "patterns": [
+        "How can I change my course",
+        "Is there a way to change my course?",
+        "I want to change my course. How can I do it"
+      ],
+      "responses": [
+        "A change of course or programme must first be approved by the parents of the student and further approved by the Assistant Headmaster (Academic), who will then discuss it with the Headmaster for final approval. Any such request should be made within the first term/semester or by the end of the academic year, otherwise, the student may be required to repeat the form."
+      ],
+      "context_set": ""
+  },
+  {
+    "tag": "Most hated prefect",
+    "patterns": [
+      "Who is Jeffrey Hammond?",
+      "Who is Mouthopos?",
+      "Who is the Ground Prefect?",
+      "Who is the most hated prefect?"
+
+    ],
+    "responses": [
+      "",
+      "Jeffrey Hammond is the most hated prefect",
+      "Mouthopos is the most hated prefect"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "Prefect Application",
+    "patterns": [
+      "how to apply for prefectship",
+      "how to become a prefect",
+      "how can one become a prefect"
+
+    ],
+    "responses": [
+      "One can become a prefect by apply for the position he would prefer when the application for it comes"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "SRC",
+    "patterns": [
+      "what is SRC",
+      "what is the student representative council",
+      "what does src work"
+
+    ],
+    "responses": [
+      "The Student Representative Council is a group in St. Augustine's College that represents the whole student body at the administrative level by raising students concern on certain issuses and problems they face on campus.",
+      "The Student Representative Council consists of a group of students that include all prefects, representative from each class, and representative from each club. It is headed by the SRC president who is appointted by the group each year."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "age",
+    "patterns": [
+      "how old is the school",
+      "how old is the college",
+      "how is augusco",
+      "when was augusco set up"
+
+    ],
+    "responses": [
+      "St. Augustine's College was set up in the year 1930 and as of march 2024 it '94'"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "galley",
+    "patterns": [
+      "what was the meaning of galley",
+      "to galley means what",
+      "what does galley mean"
+
+    ],
+    "responses": [
+      "It means to walk majestically"
+      
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "Eye-tear",
+    "patterns": [
+      "what was the meaning of eye-tear",
+      "what does eye-tear mean"
+      
+
+    ],
+    "responses": [
+      "It means to not reciprocate a kind geature"
+      
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": ")bra",
+    "patterns": [
+      "what was the meaning of )bra",
+      "what does )bra mean"
+      
+
+    ],
+    "responses": [
+      "It means to run away to town at night"
+      
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "Munqui",
+    "patterns": [
+      "what was the meaning of munkuwi",
+      "what does munqui"
+  
+
+    ],
+    "responses": [
+      "An ugly person"
+
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "B)st",
+    "patterns": [
+      "what was the meaning of b)st",
+      "what does b)st mean"
+
+    ],
+    "responses": [
+      "To steal "
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "Anti-so",
+    "patterns": [
+      "what does anti-so mean",
+      "what was the meaning of anti-so"
+
+    ],
+    "responses": [
+      "To abent yourself from social gatherings"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "Mining",
+    "patterns": [
+      "what does mining mean",
+      "what was the meaning of mining"
+
+    ],
+    "responses": [
+      "Study late at night"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "Bomb",
+    "patterns": [
+      "what does bomb mean",
+      "what was the meaning of bombing"
+    ],
+    "responses": [
+      "To fail miserably in an examination"
+      
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "Blow",
+    "patterns": [
+      "what does blow mean",
+      "what is the meaning of to blow"
+    ],
+    "responses": [
+      "To perfom well in your exams"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "Heady",
+    "patterns": [
+      "Who is heady",
+      "What does heady mean"
+
+    ],
+    "responses": [
+      "Heady is the headmaster of the college,Henry Attah Gyan"
+    ],
+    "context_set": ""
+  },
+
+{
+  "tag": "Heady",
+  "patterns": [
+    "Who is heady",
+    "What does heady mean"
+
+  ],
+  "responses": [
+    "Heady is the headmaster of the college,Henry Attah Gyan"
+  ],
+  "context_set": ""
+},
+
+{
+  "tag": "Chow",
+  "patterns": [
+    "What is chow",
+    "What does cho mean"
+
+  ],
+  "responses": [
+    "Food"
+  ],
+  "context_set": ""
+},
+
+{
+  "tag": "Shanks",
+  "patterns": [
+    "What is shanks",
+    "What does shanks mean"
+
+  ],
+  "responses": [
+    "Washroom"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Shanko",
+  "patterns": [
+    "What is shanko",
+    "What does shanko mean"
+
+  ],
+  "responses": [
+    "Toilet roll"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Shark",
+  "patterns": [
+    "What is shark",
+    "What does shark mean"
+
+  ],
+  "responses": [
+    "An intelligent boy"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Shada",
+  "patterns": [
+    "What is shada",
+    "What does shada mean"
+
+  ],
+  "responses": [
+    "To dress up"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Antipe",
+  "patterns": [
+    "What is antipe",
+    "What does antipe mean"
+
+  ],
+  "responses": [
+    "To dress up without wearing boxers"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Laborrow",
+  "patterns": [
+    "What is laborrow",
+    "What does laborrow mean"
+
+  ],
+  "responses": [
+    "To use borrowed items"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Extra-mo",
+  "patterns": [
+    "What is extra-mo",
+    "What does extra-mo mean"
+
+  ],
+  "responses": [
+    "Illegal students in the college "
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Dorlu",
+  "patterns": [
+    "What is dorlu",
+    "What does dorlu mean"
+
+  ],
+  "responses": [
+    "A nerd"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Below",
+  "patterns": [
+    "What is down below",
+    "What does down-below mean"
+
+  ],
+  "responses": [
+    "College food market"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Chisel",
+  "patterns": [
+    "What is the meaning of chisel ",
+    "What does chisel mean"
+
+  ],
+  "responses": [
+    "A greedy person"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Abode3",
+  "patterns": [
+    "What is the meaning of abode3 ",
+    "What does abode3 mean"
+
+  ],
+  "responses": [
+    "A strong  person"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Shai",
+  "patterns": [
+    "What is the meaning of shai ",
+    "What does shai mean"
+
+  ],
+  "responses": [
+    "Shito"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Bodype",
+  "patterns": [
+    "What is the meaning of bodype",
+    "What does bodype mean"
+
+  ],
+  "responses": [
+    "To dress up without wearing singlet"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Spag",
+  "patterns": [
+    "What is the meaning of spag",
+    "What does spag mean"
+
+  ],
+  "responses": [
+    "Spaghetti"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Jive",
+  "patterns": [
+    "What is the meaning of jive",
+    "What does jive mean"
+
+  ],
+  "responses": [
+    "To lie"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Bore",
+  "patterns": [
+    "What is the meaning of bore",
+    "What does bore mean"
+
+  ],
+  "responses": [
+    "To get angry"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "D-hall",
+  "patterns": [
+    "What is the meaning of d-hall",
+    "What does dhall mean"
+
+  ],
+  "responses": [
+    "The dinning hall"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Chick/Shawdy",
+  "patterns": [
+    "What is the meaning of chick",
+    "What does shawdy mean"
+
+  ],
+  "responses": [
+    "A girl"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Bounce",
+  "patterns": [
+    "What is the meaning of bounce",
+    "What does bounce mean"
+
+  ],
+  "responses": [
+    "To be deprived of something "
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Wedge",
+  "patterns": [
+    "What is the meaning of wedge",
+    "What does wedge mean"
+
+  ],
+  "responses": [
+    "To wait"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Yawa",
+  "patterns": [
+    "What is the meaning of yawa",
+    "What does yawa mean"
+
+  ],
+  "responses": [
+    "Daft behaviour"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Busta",
+  "patterns": [
+    "What is the meaning of busta",
+    "What does busta mean"
+
+  ],
+  "responses": [
+    "A thief"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Suckable",
+  "patterns": [
+    "What is the meaning of suckable",
+    "What does suckable mean"
+
+  ],
+  "responses": [
+    " A beverage"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Most popular food",
+  "patterns": [
+    "What is the most popuar food served at the dining hall "
+    
+
+  ],
+  "responses": [
+    " Abortion,rice and groudnut soup"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Father's favourite line",
+  "patterns": [
+    "What Father's favourite line  "
+    
+
+  ],
+  "responses": [
+    "Beleive you me"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "First house built in the school",
+  "patterns": [
+    "What is first house built in the school "
+    
+
+  ],
+  "responses": [
+    "St Theresa's house"
+  ],
+  "context_set": ""
+},
+  {
+  "tag": "NSMQ Trophies",
+  "patterns": [
+     "How many Nsmq trophies have we won?"
+    
+
+  ],
+  "responses": [
+    "We have won two, in 2007 and 2019"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "St.Augustine",
+  "patterns": [
+     "who is St. Augustine?"
+    
+
+  ],
+  "responses": [
+    "St. Augustine, also known as Augustine of Hippo, was an early Christian theologian and philosopher whose writings influenced the development of Western Christianity and Western philosophy.Birth: Augustine was born on November 13, 354, in Thagaste (modern-day Souk Ahras, Algeria), in the Roman province of Numidia.Family: His mother, Monica, was a devout Christian, while his father, Patricius, was a pagan who converted to Christianity on his deathbed.Studies: Augustine studied rhetoric in Carthage, where he became acquainted with Latin literature, philosophy, and the art of public speaking.Manichaeism: For a time, he was a follower of Manichaeism, a religion that taught a dualistic view of good and evil.Bishop of Hippo: Augustine became the Bishop of Hippo (modern-day Annaba, Algeria) in 395, a position he held until his death.Death: Augustine died on August 28, 430, during the siege of Hippo by the Vandals.St. Augustine is remembered as one of the most important figures in the history of Christianity, whose ideas shaped the theological landscape of the Western world."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "History of The College",
+  "patterns": [
+     "What is the history of the college"
+    
+
+  ],
+  "responses": [
+    "On 6 August 1933, the Roman Catholic Church and the Bishop of Cape Coast Vicariate Monsignor W. T. Porter felt the need to have a separate Roman Catholic school and Cape Coast was found to be the most suitable location.A commemorative foundation stone was laid in late 1935 at the present site. Fr. Maurice B. Kelly, the Dean of the Training College at Amissano which is now St. Teresa’s Seminary, Amisano,became the first Head Dean or Headmaster."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Eight A's",
+  "patterns": [
+     "What is the probability of getting 8 A's?"
+    
+
+  ],
+  "responses": [
+    "The probalility is very high considering the colleges track record but if you don't put in hard work you lessen that probability"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "NSMQ Trophies",
+  "patterns": [
+     "How many Nsmq trophies have we won?",
+     "How many Nsmq trophies has augusco won?"
+    
+
+  ],
+  "responses": [
+    "St. Augustine's College has won two NSMQ trophies, in 2007 and 2019 edition"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "college",
+  "patterns": [
+     "what is the name of the college",
+     "name of the school",
+     "name of the college",
+     "what school is this"
+  ],
+  "responses": [
+    "St. Augustine's College is the name of the school. It located in Cape Coast, Ghana."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "school",
+  "patterns": [
+    "what is the name of the school",
+    "name of the school",
+    "name of the college",
+    "what school is this"
+  ],
+  "responses": [
+    "St. Augustine's College is the name of the school. It located in Cape Coast, Ghana."
+  ],
+  "context_set": ""
+}
+
+
+]
+}
